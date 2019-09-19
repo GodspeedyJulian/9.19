@@ -1,3 +1,6 @@
+#a & Name as string
+#NewList as List
+#Space as int
 a=input("input a name you want to remove: ")
 FileHandle=open("qbdata.txt","r")
 NewList=[]
