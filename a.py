@@ -1,8 +1,5 @@
-
-
-
-
-
+#Character as string
+# NewText as string
 Character=str(input('input a character:'))
 NewText=''
 FileHandle=open('qbdata.txt','r')
