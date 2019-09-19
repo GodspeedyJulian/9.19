@@ -4,7 +4,7 @@ for Line in FileHandle.readlines():
     
     Found=False
     for i in Line:
-        if i[0:4]==Code:
+        if Line[:4]==Code:
             print("Student found ")
             Found=True
             break
