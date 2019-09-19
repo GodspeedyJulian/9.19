@@ -1,3 +1,6 @@
+#Code as string
+#Found as Boolean
+
 Code=input('Please input the code for the student: ')
 FileHandle=open('qbdata.txt','r')
 for Line in FileHandle.readlines():
